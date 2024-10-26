@@ -1,0 +1,105 @@
+.home_img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; 
+   
+}
+.img-background{
+        position: relative;
+        height: 100vh; /* Full height */
+        background-image: url('assets/img1.jpg') ;
+        /* opacity: ; */
+}
+
+.overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 182, 193, 0.5); /* Pink overlay with 50% opacity */
+        pointer-events: none; /* Allow interaction with text */
+}
+
+.btn-pink {
+    background-color: #ff69b4;  
+    color: white;               
+    border: none;              
+}
+
+.btn-pink:hover {
+    background-color: #ff1493;  
+}
+.h2{
+    color: black;
+    opacity: 1;
+    background: rgba(221, 212, 212, 0.5); 
+    
+}
+
+
+.btn-purple {
+    background-color: #c364d1;  
+    color: white;                
+    border: none;               
+}
+
+.btn-purple:hover {
+    background-color: #c364d1;   /* Darker pink on hover */
+}
+
+.sticky_button{
+    position: sticky;
+    margin-top: 4px;
+    width: 50%;
+}
+
+.box {
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 50%;
+    height: 600px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling */
+    ;
+}
+.btn-light-green {
+    background-color: #6ed86e; /* Light green color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.btn-light-green:hover {
+    background-color: #146414; /* Darker green when hovered */
+}
+
+.custom-table {
+    background-color: #f7f2ff; /* Light purple background for the table */
+}
+
+.custom-table th {
+    background-color: #564581; /* Dark purple for header */
+    color: white; /* White text for header */
+}
+
+.custom-table th, .custom-table td {
+    padding: 15px; /* Padding for cells */
+    text-align: center; /* Center align text */
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e2e3ff; /* Light blue when hovering over a row */
+}
+
+/* Optional: Ensure alternate row colors work with Bootstrap's striped */
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f1c4e7; /* Light pink for odd rows */
+}
+
